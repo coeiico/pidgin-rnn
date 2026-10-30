@@ -122,6 +122,12 @@ remove an item that is done.
 - For this project the cloud is not worth it unless the vocabulary size × message length sweep
   grows large; then run it as one sweep on L4s.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 pidgin-rnn is project 12 of 18 in the Latent Space Project: small ML repos that test whether
