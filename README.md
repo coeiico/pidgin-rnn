@@ -2,11 +2,7 @@
 
 **Emergent communication.** Two agents playing a referential guessing game invent a discrete language; does it map symbols to concepts?
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 12 of 18 | 4. Strategy and navigation | Nothing | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -29,7 +25,7 @@ Do two agents playing a guessing game invent a language whose symbols map to con
 
 - Accuracy is high and there is a clear analysis of what the symbols encode.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
